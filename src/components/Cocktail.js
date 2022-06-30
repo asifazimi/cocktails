@@ -1,9 +1,9 @@
 import React from "react";
 
-const Cocktail = () => {
+const Cocktail = ({ id, name, image, info, glass }) => {
   return (
     <>
-      <h1>Cocktail component</h1>
+      <img src={image} alt={name}></img>
     </>
   );
 };

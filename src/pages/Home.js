@@ -1,10 +1,14 @@
 import React from "react";
+// componets
+import SearchForm from "../components/SearchForm";
+import CocktailList from "../components/CocktailList";
 
 const Home = () => {
   return (
-    <>
-      <h1>Home page</h1>
-    </>
+    <main>
+      <SearchForm />
+      <CocktailList />
+    </main>
   );
 };
 
