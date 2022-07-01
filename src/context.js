@@ -1,7 +1,5 @@
 import React, { useState, useContext, useEffect } from "react";
 const data = " https://www.thecocktaildb.com/api/json/v1/1/search.php?s=";
-// const cocktailSingle =
-//   "https://www.thecocktaildb.com/api/json/v1/1/lookup.php?i=11007";
 
 const AppContext = React.createContext();
 
